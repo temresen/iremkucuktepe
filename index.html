@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Uzm. Fzt. Ost. İrem Küçüktepe — Osteopati & Fizyoterapi, Ankara</title>
+  <meta name="description" content="Osteopati, manuel terapi ve fizyoterapi hizmetleri. Ankara, Beştepe. Randevu ve iletişim için formu doldurun veya WhatsApp'tan yazın." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#f8fafc;
+      --panel:#ffffff;
+      --text:#1e293b;
+      --muted:#475569;
+      --brand:#2563eb;
+      --brand-2:#10b981;
+      --accent:#7c3aed;
+      --card:#ffffff;
+      --ring:#2563eb33;
+      --shadow: 0 6px 20px rgb(0 0 0 / 0.08);
+      --radius: 18px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0; font:16px/1.6 Inter, system-ui, sans-serif; color:var(--text); background:var(--bg);
+    }
+    a{color:inherit; text-decoration:none}
+    .container{width:min(1100px,92vw); margin-inline:auto}
+    header{position:sticky; top:0; z-index:50; backdrop-filter:saturate(140%) blur(8px); background:#ffffffee; border-bottom:1px solid #e2e8f0}
+    .nav{display:flex; align-items:center; justify-content:space-between; gap:16px; padding:14px 0}
+    .logo{display:flex; align-items:center; gap:12px; font-weight:700; color:var(--brand)}
+    .logo .mark{width:36px; height:36px; border-radius:12px; background:linear-gradient(135deg, var(--brand), var(--brand-2)); display:grid; place-items:center; color:#fff; font-weight:900}
+    .nav .links{display:flex; gap:18px; align-items:center}
+    .nav a.btn{padding:10px 16px; border-radius:999px; border:1px solid var(--brand); color:#fff; background:var(--brand)}
+    .hero{padding:80px 0 40px; display:grid; gap:30px; grid-template-columns:1fr 1fr; align-items:center}
+    .hero img{width:100%; border-radius:20px; box-shadow:var(--shadow)}
+    h1{font-size:clamp(28px,4.2vw,46px); margin:12px 0 14px}
+    .lead{color:var(--muted); font-size:clamp(15px,1.6vw,18px)}
+    .cta{display:flex; gap:12px; margin-top:20px; flex-wrap:wrap}
+    .btn{display:inline-flex; align-items:center; gap:10px; padding:12px 18px; border-radius:12px; border:1px solid #e2e8f0; background:#f1f5f9; color:var(--text); font-weight:500}
+    .btn.primary{background:var(--brand); color:#fff; border:none}
+    section{padding:60px 0}
+    .section-title{margin-bottom:22px}
+    .section-title h2{margin:0; font-size:clamp(22px,3.2vw,34px)}
+    .grid{display:grid; gap:18px}
+    .grid.cols-3{grid-template-columns:repeat(3,1fr)}
+    .card{background:var(--card); border:1px solid #e2e8f0; border-radius:var(--radius); padding:18px; box-shadow:var(--shadow)}
+    .card img{width:100%; border-radius:12px; margin-bottom:12px}
+    .muted{color:var(--muted)}
+    .about{display:grid; grid-template-columns:1fr 1fr; gap:26px; align-items:center}
+    .about img{width:100%; border-radius:20px; box-shadow:var(--shadow)}
+    details{background:#f1f5f9; border:1px solid #e2e8f0; border-radius:14px; padding:14px}
+    summary{cursor:pointer; font-weight:600}
+    .contact{display:grid; grid-template-columns:1fr 1fr; gap:20px; align-items:start}
+    form{display:grid; gap:12px}
+    input,textarea{width:100%; background:#fff; border:1px solid #cbd5e1; color:var(--text); padding:12px 14px; border-radius:12px}
+    textarea{min-height:130px; resize:vertical}
+    .map{overflow:hidden; border-radius:16px; border:1px solid #e2e8f0; box-shadow:var(--shadow)}
+    footer{padding:26px 0 60px; color:var(--muted); border-top:1px solid #e2e8f0}
+    .footer-grid{display:grid; grid-template-columns:1fr auto; gap:18px; align-items:center}
+    .social{display:flex; gap:10px}
+    @media(max-width:960px){.hero,.about,.contact{grid-template-columns:1fr} .grid.cols-3{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:640px){.grid.cols-3{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a class="logo" href="#"><span class="mark">İK</span><span>İrem Küçüktepe</span></a>
+      <nav class="links">
+        <a href="#hizmetler">Hizmetler</a>
+        <a href="#hakkinda">Hakkında</a>
+        <a href="#sss">SSS</a>
+        <a href="#iletisim" class="btn">Randevu</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container">
+      <div>
+        <h1>Vücudunuza bütüncül bakış</h1>
+        <p class="lead">Ankara Beştepe'deki kliniğimizde; bel-boyun ağrıları, spor yaralanmaları, baş ağrıları ve postür bozukluklarında kişiye özel tedavi sağlıyoruz.</p>
+        <div class="cta">
+          <a class="btn primary" href="#iletisim">Hemen randevu alın</a>
+          <a class="btn" href="#hizmetler">Hizmetleri keşfet</a>
+        </div>
+      </div>
+      <img src="https://images.pexels.com/photos/6749772/pexels-photo-6749772.jpeg" alt="Klinik ortamı">
+    </section>
+
+    <!-- HİZMETLER -->
+    <section id="hizmetler">
+      <div class="container">
+        <div class="section-title">
+          <h2>Hizmetler</h2>
+        </div>
+        <div class="grid cols-3">
+          <article class="card">
+            <img src="https://images.pexels.com/photos/4506075/pexels-photo-4506075.jpeg" alt="Osteopati">
+            <h3>Osteopati</h3>
+            <p class="muted">Vücudu bir bütün olarak ele alan manuel yaklaşım.</p>
+          </article>
+          <article class="card">
+            <img src="https://images.pexels.com/photos/4506109/pexels-photo-4506109.jpeg" alt="Manuel Terapi">
+            <h3>Manuel Terapi</h3>
+            <p class="muted">Eklem ve yumuşak dokulara yönelik teknikler.</p>
+          </article>
+          <article class="card">
+            <img src="https://images.pexels.com/photos/5794010/pexels-photo-5794010.jpeg" alt="Lenfödem">
+            <h3>Lenfödem Terapisi</h3>
+            <p class="muted">Lenf drenajı ve bantlama uygulamaları.</p>
+          </article>
+          <article class="card">
+            <img src="https://images.pexels.com/photos/5794010/pexels-photo-5794010.jpeg" alt="Lenfödem">
+            <h3>Lenfödem Terapisi</h3>
+            <p class="muted">Lenf drenajı ve bantlama uygulamaları.</p>
+           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HAKKINDA -->
+    <section id="hakkinda">
+      <div class="container about">
+        <img src="https://images.pexels.com/photos/5327585/pexels-photo-5327585.jpeg" alt="İrem Küçüktepe portre">
+        <div>
+          <h2>İrem Küçüktepe</h2>
+          <p class="muted">2010 yılından bu yana fizyoterapi ve osteopati alanında geniş bir hasta grubuyla çalışıyorum. Tedavide ilk hedefim, semptomdan ziyade nedene odaklanmaktır.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- SSS -->
+    <section id="sss">
+      <div class="container">
+        <div class="section-title"><h2>Sık Sorulan Sorular</h2></div>
+        <details><summary>Osteopati nedir?</summary><p>Osteopati elle uygulanan bütüncül tedavi yaklaşımıdır.</p></details>
+        <details><summary>Seans süresi nedir?</summary><p>İlk değerlendirme 50–60 dk, takip seansları 40–50 dk sürer.</p></details>
+      </div>
+    </section>
+
+    <!-- İLETİŞİM -->
+    <section id="iletisim">
+      <div class="container contact">
+        <form onsubmit="event.preventDefault(); alert('Teşekkürler!'); this.reset();">
+          <input required name="ad" placeholder="Ad Soyad" />
+          <input required name="tel" placeholder="Telefon" />
+          <textarea required name="mesaj" placeholder="Mesaj"></textarea>
+          <button class="btn primary" type="submit">Gönder</button>
+        </form>
+        <div class="map">
+          <iframe src="https://www.google.com/maps?q=Be%C5%9Ftepe%20Mah.%20Moment%20Ofis%20Be%C5%9Ftepe%2C%20Ankara&output=embed" width="100%" height="320" style="border:0" loading="lazy"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div>© <span id="y"></span> İrem Küçüktepe</div>
+      <div class="social">
+        <a href="mailto:iremkucuktepe@gmail.com">E-posta</a>
+        <a href="tel:+905332129350">Ara</a>
+      </div>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
