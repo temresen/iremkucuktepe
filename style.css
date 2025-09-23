@@ -272,3 +272,12 @@ html {
     max-width:100%;
   }
 }
+/* Accessibility: focus visible */
+:focus-visible{outline:3px solid var(--ring); outline-offset:2px}
+
+/* Print styles */
+@media print{
+  header, .cta, .map, .social{display:none !important}
+  body{background:#fff}
+  .card{box-shadow:none; border-color:#ddd}
+}
