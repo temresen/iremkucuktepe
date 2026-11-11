@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sayfa bulunamadı | Uzm. Fzt. İrem Küçüktepe</title>
+  <meta name="robots" content="noindex" />
+  <meta name="theme-color" content="#eef5f4" />
+  <link rel="preload" href="/fonts/bricolage-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="wordmark" href="/" aria-label="İrem Küçüktepe, anasayfa">İrem Küçüktepe</a>
+      <nav class="nav-links" aria-label="Ana gezinme">
+        <a href="/#tedaviler">Tedaviler</a>
+        <a href="/#hakkinda">Hakkımda</a>
+        <a href="/#sss">Sorular</a>
+        <a class="btn" href="/#randevu">Randevu al</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap lost" data-hero>
+    <div class="text">
+      <h1 data-reveal>Bu sayfa yok</h1>
+      <p data-reveal style="--i:1">Aradığınız adres taşınmış ya da hiç olmamış olabilir.</p>
+      <div class="actions" data-reveal style="--i:2">
+        <a class="btn" href="/">Anasayfaya dön</a>
+        <a class="btn ghost" href="/#randevu">Randevu al</a>
+      </div>
+    </div>
+    <div class="window" aria-hidden="true">
+        <div class="scene" aria-hidden="true">
+          <div class="sun-wrap"><div class="sun"></div></div>
+          <div class="hill hill-back"></div>
+          <div class="tree" style="--x:60%;--y:73%;--s:clamp(16px, 1.7vw, 26px);--i:0"></div>
+          <div class="tree round" style="--x:84%;--y:74%;--s:clamp(18px, 1.9vw, 28px);--i:1"></div>
+          <div class="tree round" style="--x:24%;--y:55%;--s:clamp(18px, 2vw, 30px);--i:2;--c:var(--ink)"></div>
+          <div class="tree" style="--x:33%;--y:57%;--s:clamp(16px, 1.7vw, 26px);--i:3;--c:var(--ink)"></div>
+          <div class="hill hill-front"></div>
+        </div>
+    </div>
+  </main>
+  <script>
+    requestAnimationFrame(function () { requestAnimationFrame(function () {
+      document.querySelectorAll('[data-hero], [data-reveal]').forEach(function (el) { el.classList.add('is-in'); });
+    }); });
+  </script>
+</body>
+</html>

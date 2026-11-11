@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://iremkucuktepe.com/</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>1.00</priority>
+    <image:image><image:loc>https://iremkucuktepe.com/images/irem.jpeg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://iremkucuktepe.com/kvkk.html</loc>
+    <lastmod>2026-11-11</lastmod>
+    <priority>0.30</priority>
+  </url>
+</urlset>
